@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Aplicatia.Model.Agenda">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Agenda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aplicatia.Model.Contact">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAAAEAAAAAAAABAAAAAAAAAAAABAAAAQAAAAA=</HashCode>
+      <FileName>Model\Contact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agenda_de_contact.Model.Context">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQBAAAQBAQgABgAAAgAAAAAQQAAAAgACACAAEEIAAA=</HashCode>
+      <FileName>Model\Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agenda_de_contact.Model.Utilizator">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Model\Utilizator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agenda_de_contact.View.InfoAgenda">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>View\InfoAgenda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agenda_de_contact.View.InfoContact">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\InfoContact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agenda_de_contact.View.InfoUtilizator">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\InfoUtilizator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agenda_de_contact.View.MenuOption">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQEAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>View\MenuOption.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Agenda_de_contact.Program">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Agenda_de_contact.View.IMenuOption">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\IMenuOption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
