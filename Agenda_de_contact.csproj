@@ -11,6 +11,10 @@
     <PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.5" />
     <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="7.0.5" />
     <PackageReference Include="SQLitePCLRaw.core" Version="2.1.5" />
+	<None Include="$(ProjectDir)Agenda_de_contacte_filled_with_data.db"/>
   </ItemGroup>
-
+  <Target Name="CopyAndRename" AfterTargets="Build">
+	<Copy SourceFiles="$(ProjectDir)Agenda_de_contacte_filled_with_data.db" 
+		  DestinationFiles="$(Project)Agenda_de_contacte.db"/>
+  </Target>
 </Project>
